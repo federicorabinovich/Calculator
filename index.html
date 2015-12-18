@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Plain Javascript Calculator</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="Calculator/Calculator.css">
+	<script type="text/javascript" src="Calculator/Calculator.js"></script>
+</head>
+<body>
+	<div id="container">
+		<h1>This html implements calculator class in plain JS+Css</h1>
+		<p>To change styles (colors, fonts, sizes) edit Calculator.css</br>This is version 1.0 and should be considered just as a Beta version</p>
+		<h3>The following aspects were targeted</h3>
+		<ul>
+			<li>Design</li>
+			<li>UX - bearing in mind mobile device users (responsive layout)</li>
+			<li>Friendly to further development (e.g. scalable, maintainable,..)</li>
+		</ul>
+		<div id="calcContainer"></div>
+	</div>
+
+	<script>
+	var settings = {
+		containerId: 'calcContainer',
+		anim:		true
+	}
+	var myCalc = new Calculator(settings);
+	</script>
+</body>
+</html>

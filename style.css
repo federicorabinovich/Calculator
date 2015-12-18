@@ -1,0 +1,55 @@
+* {
+	margin:0;
+	padding:0;
+	max-height:100000px;
+}
+ul, ol, dl, p, h1, h2, h3, h4, h5, h6, address, form, table, blockquote, applet, embed, object, iframe, frameset{margin:0 0 14px;}
+html, body, div, span, applet, embed, object, iframe, frameset,
+p, q, blockquote, sub, sup, a, abbr, acronym, font, img, small, center,
+h1, h2, h3, h4, h5, h6, b, strong, big, u, ins,
+i, cite, em, var, dfn, address, s, strike, del,
+dl, dt, dd, ol, ul, li, pre, code, kbd, samp, tt,
+fieldset, legend, form, label, table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, footer, header,
+hgroup, menu, nav, section, summary, time, mark, audio,video{
+	border:0;
+	background:none;
+}
+header, footer, article, section, nav, figure, aside{display: block;}
+html, body{height: 100%;}
+body{
+	color:#ffffff;
+	font: 18px Century Gothic, Arial, sans-serif;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust: none;
+	background-color: #3ac2cf;
+	padding: 0 10px;
+
+}
+a {
+	text-decoration:none;
+	color: #ffffff;
+}
+img{max-width: 100%;
+	height: auto;
+}
+#container{
+	margin: 0 auto;
+	display:block;
+	max-width:900px;
+}
+ul{
+	list-style-position: inside;
+	margin-bottom:50px;
+}
+h1, h3{
+	font-weight:normal;
+}
+h3, ul{
+	margin-left:10%;
+}
+@media only screen and (max-width: 999px){
+	body{
+		font-size:14px;
+	}
+}
